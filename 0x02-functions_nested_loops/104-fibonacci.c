@@ -11,7 +11,7 @@ int fibonacci2 = 2;
 
 printf("%d, %d, ", fibonacci1, fibonacci2);
 
-int count = 2;
+count = 2;
 
 while (count < 98)
 {
