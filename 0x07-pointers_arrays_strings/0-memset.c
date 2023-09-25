@@ -3,6 +3,8 @@
 /**
  * _memset - buffer function to set pointer memory
  * @s : pointer value
+ * @b : character
+ * @n : unsigned int
  *
  * Return: always zero
  */
