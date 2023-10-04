@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - Program to multiply numbers received as arguments
- * @argc: Argument count
- * @argv: Argument Vector
- *
- * Return: 0 when true, 1 when false
- */
+/**
+  * main - Prints the multiplication of two args numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 int main(int argc, char *argv[])
 {
 	int y = 0, z = 0;
@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 		z = atoi(argv[2]);
 		printf("%d\n", y * z);
 	}
-
 	else
 	{
 		printf("Error\n");
@@ -27,5 +26,4 @@ int main(int argc, char *argv[])
 	}
 
 	return (0);
-       	
 }
